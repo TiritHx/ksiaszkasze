@@ -1,12 +1,10 @@
 import React from "react";
-import noimage from "../images/noimage.jpg";
 
 function Tile(props) {
-  const src = props.src === null ? noimage : props.src;
   return (
-    <div className="border tile">
+    <div className="border">
       <p>{props.title}</p>
-      <img src={src} />
+      <img src={props.src} />
       <p>{props.rating}</p>
     </div>
   );

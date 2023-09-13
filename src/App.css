@@ -1,0 +1,18 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  border: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(75, 75, 75);
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.border * {
+  border: none;
+}
